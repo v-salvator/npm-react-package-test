@@ -1,5 +1,5 @@
 {
-  "name": "npm-react-package-test",
+  "name": "@v-salvator/npm-react-package-test",
   "version": "1.0.0",
   "description": "",
   "main": "dist/cjs/index.js",
@@ -10,6 +10,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "rollup": "rollup -c"
+  },
+  "publishConfig": {
+    "@v-salvator:registry": "https://npm.pkg.github.com"
   },
   "keywords": [],
   "author": "",
